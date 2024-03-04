@@ -1,9 +1,9 @@
 # -------------------------------------------------------------------------
 # AUTHOR: Anjali Rai
 # FILENAME: decision_tree
-# SPECIFICATION: description of the program
+# SPECIFICATION: The program implements decision tree classifiers to train on two datasets and assesses their accuracy on a separate test dataset.
 # FOR: CS 5990 (Advanced Data Mining) - Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 days
 # -----------------------------------------------------------*/
 from sklearn import tree
 import matplotlib.pyplot as plt

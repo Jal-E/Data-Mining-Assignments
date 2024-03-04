@@ -1,9 +1,9 @@
 # -------------------------------------------------------------------------
 # AUTHOR: Anjali Rai
 # FILENAME: decision_tree.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: The program trains a decision tree classifier on 'cheat_data.csv', evaluates its performance using ROC AUC score, and saves the ROC curve plot as 'roc_curve_plot.png'.
 # FOR: CS 5990 (Advanced Data Mining) - Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 days
 # -----------------------------------------------------------*/
 from sklearn import tree
 from sklearn.model_selection import train_test_split
