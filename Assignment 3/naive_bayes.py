@@ -20,7 +20,7 @@ df_training = pd.read_csv('weather_training.csv')
 X_training = df_training.drop(['Temperature (C)', 'Formatted Date'], axis=1).values  # Exclude the 'Formatted Date' column
 y_training = df_training['Temperature (C)'].values.astype('float')
 
-# Discretize the training class values according to the discretization (11 values only)
+# Discretize the training class values
 y_training = np.digitize(y_training, bins=classes) - 1
 
 # Read the test data
@@ -28,7 +28,7 @@ df_test = pd.read_csv('weather_test.csv')
 X_test = df_test.drop(['Temperature (C)', 'Formatted Date'], axis=1).values   #Exclude the 'Formatted Date' column
 y_test = df_test['Temperature (C)'].values.astype('float')
 
-# Discretize the test class values according to the discretization (11 values only)
+# Discretize the test class values 
 y_test = np.digitize(y_test, bins=classes) - 1
 
 # Fitting the naive_bayes to the data
